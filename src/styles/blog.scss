@@ -1,0 +1,384 @@
+
+// all variable style 
+@import './variables';
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.blog-page{
+ width:100%;
+ .blog-fast-three-div{
+    margin: 0 auto;
+    height: 250px;
+    width: 85%;  
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background: rgb(213, 212, 212);
+    .zero-mean-fast-div{
+        width: 34%;
+        overflow: hidden;
+        height: 250px;
+        .zero-img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .divY-animation{
+            display:flex;
+            justify-content:center;
+            width: 100%;
+            height: 100%;
+            background: #000000a3;
+            
+            
+            .animation-text{
+                color:white;
+            }
+            .logo-animation{
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+  }
+ 
+    .blog-for-width85{
+       width:85%;
+       margin:0 auto;
+       height: auto;
+      .blog-number-two{
+          width:60%;
+          margin:0 auto;
+
+          .left-post-blog{
+            display: flex;
+            flex-direction: row;
+            width:100%;
+            margin-top:5rem;
+          .big-random-post{
+            width: 90%;
+            height: auto;
+            
+            .release-date-of-post{
+                font-family: $fontTitle;
+                color: $txtClr;
+                font-size: 1.2rem;
+            }
+            .random-post-title{
+                color:$txtClr;
+                font-family: $fontTitle;
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+            .random-img{
+                width:100%;
+                height:300px;
+                object-fit: cover;
+                margin-bottom: 2rem;
+                cursor: pointer;
+            }
+            .random-pera{
+                font-size: 1.6rem;
+                color:$txtClr;
+                font-family: $fontBody;
+            }
+            .add-div{
+                // margin-top: 8rem;
+                margin-left: 4rem;
+                  .items_add{
+                     width: 300px;
+                     height:300px;
+                     background:#ddd;
+                     display:flex;
+                     justify-content: center;
+                     align-items: center;
+                     cursor: pointer;
+                  }
+              }
+            .random-post-read-more{
+                float: right;
+                font-family: $fontTitle;
+                color: $txtClr;
+                font-weight: bold;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+          }
+          .socile-icon{
+              width: 10%;
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+              .icon-n-text{
+                  margin-top: 8rem;
+                  display: flex;
+                  flex-direction:column;
+
+              }
+              .share-text{
+                font-size: 1rem;
+                margin-bottom: 2rem;
+                font-family: $fontTitle;
+                color: $txtClr;
+                font-weight: bold;
+              }
+              .all-icon{
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+
+                  .s-icon{
+                      width: 4rem;
+                      height: 4rem;
+                      border-radius: 50%;
+                      margin-bottom: 1rem;
+                      box-shadow: 0px 2px 4px 1px #d8d8d8;
+                      display:flex;
+                      flex-direction: column;
+                      align-items: center;
+                      justify-content: center;
+                      cursor: pointer;
+                      &:hover{
+                          box-shadow: none;
+                      }
+                      .icon{
+                          margin: 0 auto;
+                          font-size: 1.4rem;
+                      }
+                  }
+              }
+          }
+         
+        }
+
+
+        .blog-fetures-and-others-post{
+            width:auto;
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 3rem;
+            .fetures-post{
+                width:auto;
+
+                .right-post-blog{
+                  width:100%;
+                    .title{
+                        margin-top: 4rem;
+                     .fetured-title{
+                         font-size: 2rem;
+                         font-family: $fontTitle;
+                         color: $txtClr;
+                     }
+                     .underline{
+                      width: 18rem;
+                     }
+                    }
+                    .fetured-item{
+                        margin-top: 2rem;
+                        .items{
+                          display: flex;
+                          flex-direction: row;
+                          width: 45rem;
+                          height: 8.5rem;
+                          margin-bottom: 1.5rem;
+                          .fetured-img{
+                              width: 30%;
+                              height: 100%;
+                              cursor: pointer;
+                              object-fit: cover;
+                          }
+                          .items-text{
+                              width: 70%;
+                              margin-left:1.5rem;
+                              .fetured-items-title{
+                                  font-size: 2rem;
+                                  font-family: $fontTitle;
+                                  color: $txtClr;      
+                              }
+                              .date-of-post{
+                                 color:$txtClr;
+                                 font-size: 1.2rem;
+                                 font-family: $fontTitle;
+                              }
+                          }
+                         
+                        }
+          
+                    }
+                  }
+            }
+            .others-post{
+                width:auto;
+                display:flex;
+                flex-direction: column;
+                .bottom-right-item-one{
+                    width:370px;
+                    height: auto;
+                    margin-top:5rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background:#f3f3f3;
+                    margin-bottom: 3rem;
+                    .get-in-tauch{
+                        font-size: 2rem;
+                        font-weight:blod;
+                        font-family:$fontTitle;
+                        color:black;
+                        margin-bottom:1.4rem;
+                        margin-top: 2rem;
+                    }
+                    .enter-your-email{
+                        font-size:1.4rem;
+                        font-family:$fontBody;
+                        color:$txtClr;
+                        margin-bottom:2rem;
+                        text-align: center;
+                    }
+                    .subscribe-input{
+                        width:27rem;
+                        height: 4rem;
+                        border-radius: 4px;
+                        outline: none;
+                        margin-bottom: 1rem;
+                        border: 1px solid black;
+                        color:$txtClr;
+                        padding-left:1rem;
+                    }
+                    .subscribe-btn{
+                        width:27rem;
+                        height:4rem;
+                        background:#7b2828;
+                        color:white;
+                        cursor: pointer;
+                        margin-bottom: 3rem;
+                        border:none;
+                        border-radius: 4px;
+                    }
+                }
+                .add-div{
+                    // margin-top: 8rem;
+                    margin-left: 4rem;
+                      .items_add{
+                         width: 300px;
+                         height:300px;
+                         background:#ddd;
+                         display:flex;
+                         justify-content: center;
+                         align-items: center;
+                         cursor: pointer;
+                      }
+                  }
+            }
+        }
+
+
+        .left-post-blog{
+            display: flex;
+            flex-direction: row;
+            width:100%;
+            margin-top:5rem;
+            margin-bottom:5rem;
+          .big-random-post{
+            width: 90%;
+            height: auto;
+            
+            .release-date-of-post{
+                font-family: $fontTitle;
+                color: $txtClr;
+                font-size: 1.2rem;
+            }
+            .random-post-title{
+                color:$txtClr;
+                font-family: $fontTitle;
+                font-size: 2rem;
+                margin-bottom: 2rem;
+            }
+            .random-img{
+                width:100%;
+                height:300px;
+                object-fit: cover;
+                margin-bottom: 2rem;
+                cursor: pointer;
+            }
+            .random-pera{
+                font-size: 1.6rem;
+                color:$txtClr;
+                font-family: $fontBody;
+            }
+            .add-div{
+                // margin-top: 8rem;
+                margin-left: 4rem;
+                  .items_add{
+                     width: 300px;
+                     height:300px;
+                     background:#ddd;
+                     display:flex;
+                     justify-content: center;
+                     align-items: center;
+                     cursor: pointer;
+                  }
+              }
+            .random-post-read-more{
+                float: right;
+                font-family: $fontTitle;
+                color: $txtClr;
+                font-weight: bold;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+          }
+          .socile-icon{
+              width: 10%;
+              display: flex;
+              flex-direction: column;
+              text-align: center;
+              .icon-n-text{
+                  margin-top: 8rem;
+                  display: flex;
+                  flex-direction:column;
+
+              }
+              .share-text{
+                font-size: 1rem;
+                margin-bottom: 2rem;
+                font-family: $fontTitle;
+                color: $txtClr;
+                font-weight: bold;
+              }
+              .all-icon{
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+
+                  .s-icon{
+                      width: 4rem;
+                      height: 4rem;
+                      border-radius: 50%;
+                      margin-bottom: 1rem;
+                      box-shadow: 0px 2px 4px 1px #d8d8d8;
+                      display:flex;
+                      flex-direction: column;
+                      align-items: center;
+                      justify-content: center;
+                      cursor: pointer;
+                      &:hover{
+                          box-shadow: none;
+                      }
+                      .icon{
+                          margin: 0 auto;
+                          font-size: 1.4rem;
+                      }
+                  }
+              }
+          }
+         
+        }
+
+   }
+}
+}

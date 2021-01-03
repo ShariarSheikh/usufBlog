@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.app-home {
+  width: 100%;
+  position: relative;
+  height: auto;
+  height: auto;
+}
+
+.app-home .slider-nav-profile {
+  position: relative;
+  width: 85%;
+  margin: 0 auto;
+  height: 300px;
+  background: black;
+}
+
+.app-home .slider-nav-profile .slider-div {
+  width: 100%;
+  height: 100%;
+}
+
+.app-home .slider-nav-profile .slider-div .carousel {
+  width: 100%;
+  height: 100%;
+}
+
+.app-home .slider-nav-profile .slider-div .carousel img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.app-home .slider-nav-profile .slider-div .carousel .carousel-caption {
+  display: none;
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.app-home .slider-nav-profile .slider-div .carousel .carousel-caption .carusel-title {
+  font-size: 2rem;
+}
+
+.app-home .slider-nav-profile .slider-div .carousel .carousel-caption .carusel-pera {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.app-home .slider-nav-profile .carousel-indicators {
+  display: none;
+}
+
+.app-home .nav-div {
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 50px;
+  background: #7b2828;
+  -webkit-box-shadow: 2px 2px 4px 0px #bfbfbf;
+          box-shadow: 2px 2px 4px 0px #bfbfbf;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.app-home .nav-div .div-img {
+  width: auto;
+  height: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.app-home .nav-div .div-img .img-border {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  z-index: 20;
+  margin-top: 0.3rem;
+}
+
+.app-home .nav-div .div-img .img-border img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.app-home .nav-div .div-img .name {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  color: #e6e6e6;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+}
+
+.app-home .nav-div .div-link {
+  width: auto;
+  height: auto;
+  margin-top: 0.7rem;
+}
+
+.app-home .nav-div .div-link .nav-link {
+  font-size: 1.7rem;
+  font-family: "Roboto", sans-serif;
+  margin-left: 2rem;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.app-home .nav-div .div-link .nav-link a.nlink {
+  color: #e6e6e6;
+}
+
+.app-home .nav-div .div-link .nav-link a {
+  color: #e6e6e6;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.app-home .nav-div .follow-me-icon-div {
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0.7rem;
+}
+
+.app-home .nav-div .follow-me-icon-div .icon-div .socile-icon span {
+  color: #e6e6e6;
+  font-size: 1.7rem;
+  margin-left: 1.7rem;
+  cursor: pointer;
+}
+
+.app-home .nav-div .follow-me-icon-div .icon-div .search-icon {
+  margin-left: 4rem;
+  color: #e6e6e6;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.app-home .nav-div .follow-me-icon-div .humberger-icon-div .menu-icon {
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  margin-left: 3.5rem;
+  position: absolute;
+  color: #e6e6e6;
+  display: none;
+}
+
+.app-home .render-page {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.app-home .main-footer {
+  height: 200px;
+  background: #131212;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app-home .main-footer .footer1 {
+  margin-right: 6rem;
+}
+
+.app-home .main-footer .footer1 h2 {
+  color: #6c757d;
+  font-size: 2rem;
+  margin-bottom: 1.4rem;
+  font-family: sans-serif;
+}
+
+.app-home .main-footer .footer1 span {
+  color: #6c757d;
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+}
+
+.app-home .main-footer .footer2 h2 {
+  color: #6c757d;
+  font-size: 2rem;
+  margin-bottom: 1.4rem;
+  font-family: sans-serif;
+}
+
+.app-home .main-footer .footer2 span {
+  color: #6c757d;
+  font-size: 1.5rem;
+  margin-right: 2.3rem;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+@media (max-width: 1920px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 1530px) {
+  .app-home {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 780px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 47%;
+  }
+}
+
+@media (max-width: 414px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 360px) {
+  html {
+    font-size: 44%;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 43%;
+  }
+}
+
+@media (max-width: 280px) {
+  html {
+    font-size: 43%;
+  }
+}
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,202 @@
+// all variable style 
+@import './variables';
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.contact{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    .contact-container{
+        margin: 0 auto;
+        width: 60%;
+        height: 550px;
+        box-shadow: 1px 2px 7px 4px #d8d7d7;
+        border-radius: 3px;
+        display:flex;
+        justify-content: space-between;
+        .contact-div1{
+            display:flex;
+            flex-direction: column;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            // border:1px solid black;
+            // margin-top: 7rem;
+            .contact-title{
+                font-size: 2rem;
+                color:#7b2828;
+                font-family: $fontTitle;
+                font-weight: bold;
+                text-align: center;
+                margin-top:2rem;
+                margin-bottom:2rem;
+            }
+            .contact-text-input{
+                width:25rem;
+                margin-bottom: 1.5rem;
+                height:4rem;
+                padding-left:3rem;
+                font-size: 1.2rem;
+                outline: none;
+                border: 2px solid #e0e0e0;
+                border-radius: 5px;
+                color:#848484;
+            }
+            .contact-email-input{
+              width:25rem;
+              margin-bottom: 1.5rem;
+              height:4rem;
+              padding-left:3rem;
+              font-size: 1.2rem;
+              outline: none;
+              border: 2px solid #e0e0e0;
+              border-radius: 5px;
+              color:#848484;
+            }
+            .contact-text-aria{
+                width:25rem;
+                margin-bottom:3rem;
+                padding-left:3rem;
+                padding-top:.6rem;
+                font-size: 1.2rem;
+                outline: none;
+                border: 2px solid #e0e0e0;
+                border-radius: 5px;
+                color:#848484;
+              }
+              .contact-icon{
+                  position: absolute;
+                  margin-top: 1.5rem;
+                  margin-left:1.3rem;
+                  color:gray;
+                  font-size: 1.4rem;
+              }
+              .contact-message-icon{
+                  position: absolute;
+                  margin-top:1rem;
+                  margin-left:1.3rem;
+                  color:gray;
+                  font-size: 1.4rem;
+              }
+              .contact-btn{
+                  width:25rem;
+                  height:4rem;
+                  background:rgb(98, 0, 255);
+                  color:rgb(249, 249, 249);
+                  border:none;
+                  border-radius: 3px;
+                  outline: none;
+                  font-size: 1.4rem;
+                  font-family:$fontTitle;
+                  font-weight: bold;
+                  box-shadow: 0px 3px 10px 2px #c1c1c1;
+                  &:hover{
+                      box-shadow: none;
+                  }
+              }
+        }
+        .contact-div2{
+            width:50%;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        .contact-div2-map{
+            width: 100%;
+            margin-top:3rem;
+           .map-contact{
+               width:80%;
+               height: 200px;
+               object-fit: cover;
+           } 
+        }
+         .contact-information{
+             width: 100%;
+             display:flex;
+             flex-direction:column;
+             margin-top:4rem;
+
+             .email-and-location-contact-div{
+              display:flex;
+              flex-direction: row;
+              margin-bottom: 3rem;
+              .emailll{
+                 width: auto;
+                .email{
+                    font-size: 2rem;
+                    font-family: $fontTitle;
+                    color:$txtClr;
+                    font-weight: bold;
+                    display:block;
+                }
+                .emaill{
+                    font-size: 1.3rem;
+                    font-family: $fontTitle;
+                    color:$txtClr;
+                    font-weight: bold;
+
+                }
+              }
+              .locationn{
+                 width: auto;
+                 margin-left: 8rem;
+                 .location{
+                    font-size: 2rem;
+                    font-family: $fontTitle;
+                    color:$txtClr;
+                    font-weight: bold;
+                    display:block;
+                 }
+                 .location-address{
+                    font-size: 1.3rem;
+                    font-family: $fontTitle;
+                    color:$txtClr;
+                    font-weight: bold;
+                 }
+              }
+             }
+             .phone-and-legal-contact-div{
+              display:flex;
+              flex-direction: row;
+              .phonee{
+                  width:auto;
+                  .phone{
+                    font-size: 2rem;
+                    font-family: $fontTitle;
+                    color:$txtClr;
+                    font-weight: bold;
+                    display:block;
+                  }
+                  .nm{
+                    font-size: 1.3rem;
+                    font-family: $fontTitle;
+                    color:$txtClr;
+                    font-weight: bold; 
+                  }
+              }
+              .legall{
+                width:auto;
+                margin-left: 10.4rem;
+                 .legal{
+                    font-size: 2rem;
+                    font-family: $fontTitle;
+                    color:$txtClr;
+                    font-weight: bold;
+                    display:block;
+                 }
+                 .legal-text{
+                    font-size: 1.3rem;
+                    font-family: $fontTitle;
+                    color:$txtClr;
+                    font-weight: bold;
+                 }
+              }
+             }
+         }
+        }
+    }
+}

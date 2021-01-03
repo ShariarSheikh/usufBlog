@@ -1,0 +1,369 @@
+
+// all variable style 
+@import './variables';
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+section{
+    width:85%;
+    margin:0 auto;
+    height: auto;
+    margin-bottom: 5rem;
+    .home2-fast-three-div{
+      height: 250px;
+      width: 100%;  
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      background: rgb(213, 212, 212);
+      .zero-mean-fast-div{
+          width: 34%;
+          overflow: hidden;
+          height: 250px;
+          .zero-img{
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+          }
+          .divY-animation{
+              display:flex;
+              justify-content:center;
+              width: 100%;
+              height: 100%;
+              background: #000000a3;
+              
+              
+              .animation-text{
+                  color:white;
+              }
+              .logo-animation{
+                  width: 50px;
+                  height: 50px;
+              }
+          }
+      }
+    }
+    .fetures-random-fast-div{
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+        margin: 0 auto;
+        .fetures-card{
+            width: 60%;
+            margin-top:5rem;
+            // border: 1px solid rgb(194, 194, 194);
+            .left-post-home{
+                display: flex;
+                flex-direction: row;
+                width:100%;
+                margin-bottom:3rem;
+              .big-random-post{
+                width: 90%;
+                height: auto;
+                
+                .release-date-of-post{
+                    font-family: $fontTitle;
+                    color: $txtClr;
+                    font-size: 1.2rem;
+                }
+                .random-post-title{
+                    color:$txtClr;
+                    font-family: $fontTitle;
+                    font-size: 2rem;
+                    margin-bottom: 2rem;
+                }
+                .random-img{
+                    width:100%;
+                    height:300px;
+                    object-fit: cover;
+                    margin-bottom: 2rem;
+                    cursor: pointer;
+                }
+                .random-pera{
+                    font-size: 1.6rem;
+                    color:$txtClr;
+                    font-family: $fontBody;
+                }
+                .add-div{
+                    // margin-top: 8rem;
+                    margin-left: 4rem;
+                      .items_add{
+                         width: 300px;
+                         height:300px;
+                         background:#ddd;
+                         display:flex;
+                         justify-content: center;
+                         align-items: center;
+                         cursor: pointer;
+                      }
+                  }
+                .random-post-read-more{
+                    float: right;
+                    font-family: $fontTitle;
+                    color: $txtClr;
+                    font-weight: bold;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+              }
+              .socile-icon{
+                  width: 10%;
+                  display: flex;
+                  flex-direction: column;
+                  text-align: center;
+                  .icon-n-text{
+                      margin-top: 8rem;
+                      display: flex;
+                      flex-direction:column;
+    
+                  }
+                  .share-text{
+                    font-size: 1rem;
+                    margin-bottom: 2rem;
+                    font-family: $fontTitle;
+                    color: $txtClr;
+                    font-weight: bold;
+                  }
+                  .all-icon{
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+    
+                      .s-icon{
+                          width: 4rem;
+                          height: 4rem;
+                          border-radius: 50%;
+                          margin-bottom: 1rem;
+                          box-shadow: 0px 2px 4px 1px #d8d8d8;
+                          display:flex;
+                          flex-direction: column;
+                          align-items: center;
+                          justify-content: center;
+                          cursor: pointer;
+                          &:hover{
+                              box-shadow: none;
+                          }
+                          .icon{
+                              margin: 0 auto;
+                              font-size: 1.4rem;
+                          }
+                      }
+                  }
+              }
+             
+            }
+          
+    
+        }
+        .fetures-card-right{
+            width:40%;
+            display:flex;
+            flex-direction: column;
+            .bottom-right-item-two{
+                width:370px;
+                height: auto;
+                margin-left:4rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background:#f3f3f3;
+                margin-top:4rem;
+                .profile-usuf-bottom{
+                    width: 100%;
+                    height:10rem;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    .hr-bottom{
+                        width: 80%;
+                        height:0.3rem;
+                        background:rgb(0, 0, 0);
+                    }
+                    .bottom-usuf-img{
+                        width: 7rem;
+                        height: 7rem;
+                        border-radius: 50%;
+                        position: absolute;
+                        object-fit: cover;
+                    }
+                }
+                .usuf-bottom-title{
+                    font-size: 1.5rem;
+                    color:$txtClr;
+                    font-family: $fontTitle;
+                    font-weight: bold;
+                    margin-bottom: 1rem;
+                }
+                .usuf-about-bottom{
+                    font-size: 1.3rem;
+                    font-family: $fontBody;
+                    color:$txtClr;
+                    margin-bottom: 4rem;
+                    text-align:center;
+                    font-weight: 500;
+                }
+                .follow-me-icon{
+                    width: 100%;    
+                    margin-bottom:1.5rem;           
+                    .span-icon-bottom{
+                        display:flex;
+                        justify-content:center;
+                        align-content: center;
+                        .follow-me{
+                            font-size: 1.5rem;
+                            font-family: $fontBody;
+                            color:$txtClr;
+                            margin-right:1rem;
+                            font-weight: bold;
+                        }
+                        .span-bottom-icon{
+                            margin-right:1rem;
+                            margin-top:.2rem;
+                            .icon-bottom{
+                                color:rgb(82, 82, 82);
+                                font-size: 1.5rem;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+            
+              .right-post-home{
+                width:40%;
+                .title{
+                    margin-left: 4rem;
+                    margin-top: 4rem;
+                    margin-bottom: 1px solid black;
+                 .fetured-title{
+                     font-size: 2rem;
+                     font-family: $fontTitle;
+                     color: $txtClr;
+                 }
+                 .underline{
+                  width: 18rem;
+                  border: 1px solid black;
+                 }
+                }
+                .fetured-item{
+                    margin-left: 4rem;
+                    margin-top: 2rem;
+                    .items{
+                      display: flex;
+                      flex-direction: row;
+                      width: 45rem;
+                      height: 8.5rem;
+                      margin-bottom: 1.5rem;
+                      .fetured-img{
+                          width: 30%;
+                          height: 100%;
+                          cursor: pointer;
+                          object-fit: cover;
+                      }
+                      .items-text{
+                          width: 70%;
+                          margin-left:1.5rem;
+                          .fetured-items-title{
+                              font-size: 2rem;
+                              font-family: $fontTitle;
+                              color: $txtClr;      
+                          }
+                          .date-of-post{
+                             color:$txtClr;
+                             font-size: 1.2rem;
+                             font-family: $fontTitle;
+                          }
+                      }
+                     
+                    }
+      
+                }
+              }
+              .add-div{
+                margin-top: 8rem;
+                margin-left: 4rem;
+                  .items_add{
+                     width: 300px;
+                     height:300px;
+                     background:#ddd;
+                     display:flex;
+                     justify-content: center;
+                     align-items: center;
+                     cursor: pointer;
+                  }
+              }
+
+              .item-left-one{
+                width:300px;
+                height: auto;
+                background: #f3f3f3;
+                margin-top: 5rem;
+                margin-left: 4rem;
+                 .left-item-img{
+                     width:300px;
+                     height: 200px;
+                     margin-bottom:1rem;
+                 }
+                 .left-items-title{
+                     font-size: 1.5rem;
+                     text-align: center;
+                 }
+                 .icon-for-socile{
+                     width: 100%;
+                     height: 5rem;
+                     margin-top:6rem;
+                     display:flex;
+                     align-items:center;
+                     .ss-icon{
+                         font-size:1.5rem;
+                         margin-right:1rem;
+                         cursor: pointer;
+                     }
+                     .from-of-post{
+                      margin-left:5rem;
+                      font-size:1rem;
+                      font-weight: bold;
+                      font-family: $fontTitle;
+                     }
+                 }
+             }
+
+        } // fetures right post end
+       
+    }
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

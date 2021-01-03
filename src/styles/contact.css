@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contact {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.contact .contact-container {
+  margin: 0 auto;
+  width: 60%;
+  height: 550px;
+  -webkit-box-shadow: 1px 2px 7px 4px #d8d7d7;
+          box-shadow: 1px 2px 7px 4px #d8d7d7;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact .contact-container .contact-div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .contact-container .contact-div1 .contact-title {
+  font-size: 2rem;
+  color: #7b2828;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact .contact-container .contact-div1 .contact-text-input {
+  width: 25rem;
+  margin-bottom: 1.5rem;
+  height: 4rem;
+  padding-left: 3rem;
+  font-size: 1.2rem;
+  outline: none;
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  color: #848484;
+}
+
+.contact .contact-container .contact-div1 .contact-email-input {
+  width: 25rem;
+  margin-bottom: 1.5rem;
+  height: 4rem;
+  padding-left: 3rem;
+  font-size: 1.2rem;
+  outline: none;
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  color: #848484;
+}
+
+.contact .contact-container .contact-div1 .contact-text-aria {
+  width: 25rem;
+  margin-bottom: 3rem;
+  padding-left: 3rem;
+  padding-top: .6rem;
+  font-size: 1.2rem;
+  outline: none;
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  color: #848484;
+}
+
+.contact .contact-container .contact-div1 .contact-icon {
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: 1.3rem;
+  color: gray;
+  font-size: 1.4rem;
+}
+
+.contact .contact-container .contact-div1 .contact-message-icon {
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 1.3rem;
+  color: gray;
+  font-size: 1.4rem;
+}
+
+.contact .contact-container .contact-div1 .contact-btn {
+  width: 25rem;
+  height: 4rem;
+  background: #6200ff;
+  color: #f9f9f9;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  -webkit-box-shadow: 0px 3px 10px 2px #c1c1c1;
+          box-shadow: 0px 3px 10px 2px #c1c1c1;
+}
+
+.contact .contact-container .contact-div1 .contact-btn:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contact .contact-container .contact-div2 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .contact-container .contact-div2 .contact-div2-map {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.contact .contact-container .contact-div2 .contact-div2-map .map-contact {
+  width: 80%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contact .contact-container .contact-div2 .contact-information {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 4rem;
+}
+
+.contact .contact-container .contact-div2 .contact-information .email-and-location-contact-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 3rem;
+}
+
+.contact .contact-container .contact-div2 .contact-information .email-and-location-contact-div .emailll {
+  width: auto;
+}
+
+.contact .contact-container .contact-div2 .contact-information .email-and-location-contact-div .emailll .email {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  color: #2e2e2e;
+  font-weight: bold;
+  display: block;
+}
+
+.contact .contact-container .contact-div2 .contact-information .email-and-location-contact-div .emailll .emaill {
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  color: #2e2e2e;
+  font-weight: bold;
+}
+
+.contact .contact-container .contact-div2 .contact-information .email-and-location-contact-div .locationn {
+  width: auto;
+  margin-left: 8rem;
+}
+
+.contact .contact-container .contact-div2 .contact-information .email-and-location-contact-div .locationn .location {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  color: #2e2e2e;
+  font-weight: bold;
+  display: block;
+}
+
+.contact .contact-container .contact-div2 .contact-information .email-and-location-contact-div .locationn .location-address {
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  color: #2e2e2e;
+  font-weight: bold;
+}
+
+.contact .contact-container .contact-div2 .contact-information .phone-and-legal-contact-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contact .contact-container .contact-div2 .contact-information .phone-and-legal-contact-div .phonee {
+  width: auto;
+}
+
+.contact .contact-container .contact-div2 .contact-information .phone-and-legal-contact-div .phonee .phone {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  color: #2e2e2e;
+  font-weight: bold;
+  display: block;
+}
+
+.contact .contact-container .contact-div2 .contact-information .phone-and-legal-contact-div .phonee .nm {
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  color: #2e2e2e;
+  font-weight: bold;
+}
+
+.contact .contact-container .contact-div2 .contact-information .phone-and-legal-contact-div .legall {
+  width: auto;
+  margin-left: 10.4rem;
+}
+
+.contact .contact-container .contact-div2 .contact-information .phone-and-legal-contact-div .legall .legal {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  color: #2e2e2e;
+  font-weight: bold;
+  display: block;
+}
+
+.contact .contact-container .contact-div2 .contact-information .phone-and-legal-contact-div .legall .legal-text {
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  color: #2e2e2e;
+  font-weight: bold;
+}
+/*# sourceMappingURL=contact.css.map */
